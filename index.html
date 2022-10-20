@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interest Rate Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://trello-attachments.s3.amazonaws.com/6040cc956e19bc7cd06b5800/607959f1604cc8751c6a5f05/4910feb19a19a7885f9bd5ffe731b57d/ElegantIcons.woff">
+</head>
+<body>
+    <section class="calculator">
+            <h1>Calculator</h1>
+
+            <form action="#" class="form">
+                <div class="input_icon"><input type="number" name="face value" id="face" placeholder="Face Value"></div>
+                <div class="input_icon"><input type="number" name="Rate" id="rate" placeholder="Rate"></div>
+                <div class="input_icon"><input type="number" name="tenor" id="tenor" placeholder="Tenor"></div>
+                <input type="button" value="Calculate" onclick="calculate()">
+            </form>
+
+            <div class="result">
+                <p> Upfront Interest: <span id="upfront"></span></p>
+                <p> Discount Value: <span id="discounted"></span></p>
+                <p> Effective Yield: <span id="effective"></span></p>
+            </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
